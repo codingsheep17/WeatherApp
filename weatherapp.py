@@ -6,7 +6,7 @@ import sys
 #creating class
 class WeatherApp:
     def __init__(self):
-        self.api_key = "ffd5c27e26f6903c56c24220abf61358"
+        self.api_key = "YourOpenWeatherApiKeyHere"
         self.ip_api()
     def ip_api(self):
          try:
